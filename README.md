@@ -38,36 +38,42 @@ venv\Scripts\activate      # On Windows
 
 ### 3. Install Dependencies
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 
 ### 4. Run Migrations
 ```bash
-Copy code
 python manage.py makemigrations
 python manage.py migrate
 ```
 
 ### 5. Start Development Server
 ```bash
-Copy code
 python manage.py runserver
-Server will start at 👉 http://127.0.0.1:8000/
 ```
+Server will start at 👉 http://127.0.0.1:8000/
+
+---
+
 ## 📡 API Endpoints
-Method	Endpoint	Description
-GET	/api/notes/	List all notes
-GET	/api/notes/{id}/	Retrieve note by ID
-POST	/api/notes/	Create new note
-PUT	/api/notes/{id}/	Update note
-PATCH	/api/notes/{id}/	Partial update
-DELETE	/api/notes/{id}/	Delete note
+
+| Method | Endpoint              | Description         |
+|--------|-----------------------|---------------------|
+| GET    | `/api/notes/`         | List all notes      |
+| GET    | `/api/notes/{id}/`    | Retrieve note by ID |
+| POST   | `/api/notes/`         | Create new note     |
+| PUT    | `/api/notes/{id}/`    | Update note         |
+| PATCH  | `/api/notes/{id}/`    | Partial update      |
+| DELETE | `/api/notes/{id}/`    | Delete note         |
+
+
+---
 
 ## 🧪 Testing the API
 Open browser at: http://127.0.0.1:8000/api/notes/
 
 Or use Postman / cURL to send requests.
 
+---
 
 ## ✍️ Author: Jeslin Marium Alex
