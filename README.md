@@ -25,7 +25,7 @@ Built for learning and practice.
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/django-crud-api.git
+git clone https://github.com/JeslinMariumAlex/django-crud-api.git
 cd django-crud-api
 ```
 
